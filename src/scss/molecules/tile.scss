@@ -1,0 +1,20 @@
+.tile {
+  width: 20rem;
+  height: 20rem;
+  padding: 0.5rem;
+  background: radial-gradient(at 0% 10px, #8e75b5, #7a649b, #665482, #53446a, #413553);
+  color: #fff;
+
+  &__inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(at 0% 10px, #ba9aed, #ab8fd9, #9c83c5, #8e78b2, #806d9f);
+
+    p {
+      font-size: 2rem;
+    }
+  }
+}
